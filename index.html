@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículum Vitae - Futuro Profesional</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 30px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    section h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #2c3e50;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 8px 0;
+      padding: 8px;
+      background: #ecf0f1;
+      border-left: 4px solid #2c3e50;
+      border-radius: 4px;
+    }
+
+    .proyecto {
+      margin-bottom: 15px;
+      padding: 12px;
+      border-left: 4px solid #2980b9;
+      background: #f0f6fa;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #2c3e50;
+      color: white;
+      margin-top: 20px;
+      border-radius: 0 0 10px 10px;
+    }
+
+    /* Columna izquierda (perfil y estudios) */
+    .col-izq {
+      border-right: 2px solid #ddd;
+      padding-right: 20px;
+    }
+
+    .col-der {
+      padding-left: 20px;
+    }
+
+    .contacto p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Leydi Valentina García Portillo</h1>
+    <p>Soy desarrolladora Fullstack especializada en aplicaciones móviles y web.</p>
+  </header>
+
+  <main>
+    <!-- Columna izquierda -->
+    <div class="col-izq">
+      <!-- Presentación -->
+      <section>
+        <h2>Presentación</h2>
+        <p>
+          Soy ingeniera de software enfocada en el desarrollo de soluciones innovadoras
+          para el sector educativo y empresarial. Mi meta es crear aplicaciones que mejoren 
+          la vida de las personas mediante el uso de la tecnología.
+        </p>
+      </section>
+
+      <!-- Contacto -->
+      <section class="contacto">
+        <h2>Contacto</h2>
+        <p><strong>Correo:</strong> 19392@virtual.utsc.edu.mx</p>
+        <p><strong>Teléfono:</strong> 8110116607</p>
+      </section>
+
+      <!-- Estudios -->
+      <section>
+        <h2>Estudios</h2>
+        <p><strong>Ingeniería en Desarrollo y Gestión de Software</strong></p>
+        <p>Universidad Tecnológica — 2021 - 2025</p>
+      </section>
+    </div>
+
+    <!-- Columna derecha -->
+    <div class="col-der">
+      <!-- Tecnologías -->
+      <section>
+        <h2>Tecnologías y Lenguajes</h2>
+        <ul>
+          <li>Java y Kotlin: Desarrollo de aplicaciones móviles en Android.</li>
+          <li>HTML, CSS y JavaScript: Creación de interfaces modernas y responsivas.</li>
+          <li>Python: Aplicaciones de análisis de datos y machine learning.</li>
+        </ul>
+      </section>
+
+      <!-- Proyectos -->
+      <section>
+        <h2>Proyectos Realizados</h2>
+        
+        <div class="proyecto">
+          <h3>App de Gestión Escolar (2025)</h3>
+          <p>Aplicación móvil desarrollada en Kotlin para la administración de calificaciones, 
+          asistencia y comunicación entre profesores y alumnos.</p>
+        </div>
+
+        <div class="proyecto">
+          <h3>Página Web de Papelería (2024)</h3>
+          <p>Desarrollo de una plataforma web para una papelería local con HTML, CSS y JavaScript.
+            El sitio incluye catálogo en línea de productos, sección de contacto y carrito de compras 
+            básico para pedidos. Su objetivo es digitalizar el negocio y mejorar la experiencia 
+            del cliente a través de la venta en línea.</p>
+        </div>
+
+        <div class="proyecto">
+          <h3>Sistema de Inventario (2023)</h3>
+          <p>Aplicación de escritorio en Java para la gestión de inventarios en pequeñas empresas, 
+          con funciones de reportes y estadísticas.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Valentina García - Currículum Vitae
+  </footer>
+</body>
+</html>
+
